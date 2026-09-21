@@ -13,7 +13,7 @@
 In order to switch modules:
 1. Click on the **nine dot** menu icon
 2. Select the module relevant to the step
-3. The lab begins in the CI/CD module
+3. The lab begins in the Unified View > Pipelines
 
 <img width="362" height="193" alt="image" src="https://github.com/user-attachments/assets/2d953dd9-b370-4308-9504-a9bf13f7fb9a" />
 
@@ -187,7 +187,7 @@ In this lab, the security team has implemented orchestration of **Fortify** and 
 | Branch Name | <pre>`main`</pre>||
 |`                `|`                            `|`                `|
 
-2. After the **Build and Push** stage is complete, navigate to the **Security Tests** tab to see the deduplicated, normalized, and prioritized list of vulnerabilities discovered across your scanners
+2. After the **Build and Push** stage is complete, navigate to the **Vulnerabilities** tab to see the deduplicated, normalized, and prioritized list of vulnerabilities discovered across your scanners
 
 ---
 
@@ -389,7 +389,7 @@ The target infrastructure has been pre-created and was used in the previous stag
 1. Edit the existing pipeline 
 2. Select the backend stage and find the **Harness Approval** between the Canary Deploy and Canary Destroy steps
 3. Delete the **Harness Approval** step
-4. **After** the canary deployment and **before** the canary delete step, add a **Verify** step 
+4. **After** the canary deployment and **before** the canary delete step, add a **AI Verify** step 
 
 | Input      | Value     | Notes |
 | ---------- | ----------------------  | ----- |
